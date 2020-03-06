@@ -22,9 +22,13 @@ INSTALL/USE:
 2. server/client dir 'example.env' file rename '.env' and give your api keys
 3. open 2 terminal
 4. First terminal: 
+	```bash
 	cd server
-	npm start
+ 	npm start
+ 	```
 5. Second terminal:
+	```bash
 	cd client
-	npm start
+ 	npm start
+ 	```
 6. It's working
