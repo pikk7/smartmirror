@@ -18,11 +18,13 @@ MAYBE:
 
 INSTALL/USE:
 
-0. server/client dir 'example.env' file rename '.env' and give your api keys
 1. clone the repo 
-2. open 2 terminal
-3. First terminal: cd server
+2. server/client dir 'example.env' file rename '.env' and give your api keys
+3. open 2 terminal
+4. First terminal: 
+	cd server
 	npm start
-4. Second terminal: cd client
+5. Second terminal:
+	cd client
 	npm start
-5. It's working
+6. It's working
