@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Forecast from "./Forecast";
 import SnowStorm from "react-snowstorm";
 
-import {
-  WiDayShowers,
+import {WiDayShowers,
   WiHot,
   WiDayHail,
   WiDaySunnyOvercast,
@@ -40,8 +39,8 @@ import {
   WiShowers,
   WiSnow,
   WiNightSleetStorm,
-  WiSnowflakeCold
-} from "weather-icons-react";
+  WiSnowflakeCold} from "weather-icons-react";
+  
 let code = "32";
 let isSnowing = false;
 let isRaining = false;
@@ -242,26 +241,7 @@ const conditions = [
   }
 ];
 
-const rainCode = [
-  0,
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  10,
-  11,
-  12,
-  35,
-  37,
-  38,
-  39,
-  40,
-  45,
-  47
-];
+const rainCode = [0, 1,  2,  3,  4,  5,  6,  7,  10,  11,  12,  35,  37,  38,  39,  40,  45,  47];
 const snowCode = [5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 16, 35, 41, 42, 43, 46];
 const strong = [0, 1, 2, 3, 4, 11, 12, 15, 40, 41, 2, 43, 47];
 
